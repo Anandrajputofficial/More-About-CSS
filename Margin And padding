@@ -1,0 +1,29 @@
+(1) What is padding and margin and when do you use them?
+Padding and margin are two CSS properties that are used to create space between elements.
+
+Padding is the space between an element's content and its border. It is used to create space between the text and the border of an element.
+
+Margin is the space between an element and the elements around it. It is used to create space between elements on a page, such as between a heading and a paragraph.
+
+Both padding and margin can be used to control the spacing between elements on a webpage, but they are typically used in different ways. Padding is used to create space between the content of an element and its border, while margin is used to create space between elements themselves.
+
+(2) What is display property and explain display inline, block, and inline-block?
+
+The display property in CSS is used to specify the layout of an HTML element. It can take on several different values, each of which affects how the element is displayed on the page.
+
+display: inline; This value causes the element to be treated as an inline element, which means that it will only take up as much width as necessary and will not create a new line after the element. This is the default value for many elements, such as the <span> and <a> elements.
+
+display: block; This value causes the element to be treated as a block-level element, which means that it will take up the full width of its parent container and create a new line after the element. This is the default value for many elements, such as the <div>, <p>, and <h1> elements.
+
+display: inline-block; This value causes the element to be treated as both an inline and a block element. It will take up only as much width as necessary but will create a new line after the element. This value is often used to create elements that are inline with text but can also be given a width and height like a block-level element.
+
+
+(3) Explain min-height, min-width, max-height and  max-width in CSS ?
+
+In CSS, the min-height, min-width, max-height, and max-width properties are used to set the minimum and maximum dimensions of an element.
+
+min-height sets the minimum height of an element. If the element's content exceeds this value, the element will expand to fit the content.
+min-width sets the minimum width of an element. If the element's content exceeds this value, the element will expand to fit the content.
+max-height sets the maximum height of an element. If the element's content exceeds this value, the element will be clipped and not expand any further.
+max-width sets the maximum width of an element. If the element's content exceeds this value, the element will be clipped and not expand any further.
+When you use min-height and min-width it will set a minimum size for the element, so that it will not become too small when the content within it is small. Similarly, max-height and max-width will set a maximum size for the element, so that it will not become too large when the content within it is large.
